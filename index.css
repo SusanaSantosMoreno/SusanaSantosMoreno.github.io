@@ -68,9 +68,26 @@ nav { font-family: 'MuseoModerno', cursive; }
     height: 5%;
 }
 
+.text-left{
+    text-align: start !important;
+}
+
 .media {
-    padding-left: 20%;
+    padding-left: 30%;
     padding-right: 20%;
+}
+
+.w-10{
+    max-width: 10%;
+}
+
+.ml-6{
+    margin-left: 4rem !important;
+}
+
+.media-col {
+    padding-left: 10%;
+    padding-right: 5%;
 }
 
 .media h5, h6{ text-align: left !important; }
