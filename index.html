@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSM</title>
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- MD ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/3f4d9a5aa9.js" crossorigin="anonymous"></script>
+    <!--POPPER JS-->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/">SSM</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active mr-2">
+                            <a class="nav-link scroll" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link scroll" href="#education">Education and Work Experience</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id='home'>
+        <div class="container">
+            <div class="column">
+                <h1>Web Developer Multicloud</h1><br>
+                <h3>Clean and efficient code is the goal in my work</h3>
+                <img id="avatar" src="img/mujer.svg" alt="avatar">
+            </div>
+        </div>
+    </section>
+
+    <section id='about'>
+        <div class="container">
+            <div class="column">
+                <h3>Who I am?</h3><br>
+                <h5>I am a hardworking person, I strive every day to learn more and take advantage of all
+                    the opportunities to become a better professional. I have team leadership skills,
+                    so I am good at teamwork.</h5>
+            </div>
+
+            <div id="cards-desktop" class="row mt-n5">
+                <div class="card border-info col mx-2">
+                    <div class="card-body">
+                        <img class="w-25" src="img/frontend.svg" alt="frontend" data-toggle="tooltip"
+                            data-placement="bottom" title="Iconos diseñados por Adib Sulthon from www.flaticon.es">
+                        <h4 class="card-title mt-3">Web FrontEnd</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">HTML</li>
+                            <li class="list-group-item text-center">CSS</li>
+                            <li class="list-group-item text-center">Bootstrap</li>
+                            <li class="list-group-item text-center">JavaScript</li>
+                            <li class="list-group-item text-center">JQuery</li>
+                            <li class="list-group-item text-center">Stack MEAN</li>
+                        </ul>
+                        <h5 class="card-subtitle mt-3 text-center text-info">Frameworks</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Angular</li>
+                            <li class="list-group-item text-center">React</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card border-info col mx-2">
+                    <div class="card-body">
+                        <img class="w-25" src="img/backend.svg" alt="BackEnd">
+                        <h4 class="card-title mt-3">Web BackEnd</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Spring using Java</li>
+                            <li class="list-group-item text-center">Net Core using C#</li>
+                            <li class="list-group-item text-center">Rest API with Express</li>
+                        </ul>
+                        <img class="w-25 mt-3" src="img/cloud.svg" alt="cloud">
+                        <h3 class="card-title mt-3">Cloud</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Azure</li>
+                            <li class="list-group-item text-center">Amazon Web Service</li>
+                            <li class="list-group-item text-center">Google Cloud</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card border-info col mx-2">
+                    <div class="card-body">
+                        <img class="w-25" src="img/mobile.svg" alt="Mobile">
+                        <h4 class="card-title mt-3">Mobile</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Android with Java</li>
+                            <li class="list-group-item text-center">IOS with Swift</li>
+                            <li class="list-group-item text-center">Hybrid with Ionic</li>
+                        </ul>
+                        <img class="w-25 mt-3" src="img/database.svg" alt="database">
+                        <h3 class="card-title mt-3">DataBases</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Mysql</li>
+                            <li class="list-group-item text-center">SQL Server</li>
+                            <li class="list-group-item text-center">Oracle PL-SQL</li>
+                            <li class="list-group-item text-center">MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cards-mobile">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="w-25" src="img/frontend.svg" alt="frontend" data-toggle="tooltip"
+                            data-placement="bottom" title="Iconos diseñados por Adib Sulthon from www.flaticon.es">
+                        <h4 class="card-title mt-3">Web FrontEnd</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">HTML</li>
+                            <li class="list-group-item text-center">CSS</li>
+                            <li class="list-group-item text-center">Bootstrap</li>
+                            <li class="list-group-item text-center">JavaScript</li>
+                            <li class="list-group-item text-center">JQuery</li>
+                            <li class="list-group-item text-center">Stack MEAN</li>
+                        </ul>
+                        <h5 class="card-subtitle mt-2 text-center text-info">Frameworks</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Angular</li>
+                            <li class="list-group-item text-center">React</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <img class="w-25" src="img/backend.svg" alt="lo que sea">
+                        <h4 class="card-title mt-3">Web BackEnd</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">JSP</li>
+                            <li class="list-group-item text-center">Java</li>
+                            <li class="list-group-item text-center">Node JS</li>
+                            <li class="list-group-item text-center">C#</li>
+                        </ul>
+                        <h5 class="card-subtitle mt-2 text-center text-info">Frameworks</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Spring</li>
+                            <li class="list-group-item text-center">NetCore</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <img class="w-25" src="img/mobile.svg" alt="lo que sea">
+                        <h4 class="card-title mt-3">Mobile</h4>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Android with Java</li>
+                            <li class="list-group-item text-center">IOS with Swift</li>
+                            <li class="list-group-item text-center">Hybrid with Ionic and Xamarin</li>
+                        </ul>
+                        <img class="w-25 mt-2" src="img/database.svg" alt="lo que sea">
+                        <h3 class="card-title mt-3">DataBases</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-center">Mysql</li>
+                            <li class="list-group-item text-center">SQL Server</li>
+                            <li class="list-group-item text-center">Oracle PL-SQL</li>
+                            <li class="list-group-item text-center">MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='education'>
+        <div class="container">
+            <div class="row">
+                <div class="column col">
+                    <h2>Education</h2><br>
+                    <div class="media-col">
+                        <div class="media-body">
+                            <div class="row">
+                                <img src="img/list.svg" class="w-10 col-md-2" alt="list">
+                                <h5 class="mt-0 col-md-10 text-left">Computer Science Degree</h5>
+                            </div>
+                            <h6 class="text-muted ml-5">(Grado en Ingeniería Informática)</h6>
+                            <p class="ml-5">Universidad de Castilla la Mancha (UCLM), Ciudad Real.
+                                Unfinished</p>
+                        </div>
+                    </div>
+                    <div class="media-col">
+                        <div class="media-body">
+                            <div class="row">
+                                <img src="img/list.svg" class="w-10 col-md-2" alt="list">
+                                <h5 class="mt-0 col-md-10 text-left">Multi-Platform Application Development</h5>
+                            </div>
+                            <h6 class="text-muted ml-5">(Grado Superior en Desarrollo de Aplicaciones Multiplataforma)
+                            </h6>
+                            <p class="ml-5">IES Lázaro Cárdenas, Collado Villalba, Madrid.</p>
+                        </div>
+                    </div>
+                    <div class="media-col">
+                        <div class="media-body">
+                            <div class="row">
+                                <img src="img/list.svg" class="w-10 col-md-2" alt="list">
+                                <h5 class="mt-0 col-md-10 text-left ml-5">Master FullStack Web Development + Multicloud
+                                    +
+                                    Multiplatform</h5>
+                            </div>
+                            <p class="ml-5">Tajamar, Madrid.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column col mx-auto">
+                    <h2>Certifications</h2><br>
+                    <div class="row">
+                        <div class="card col border-0">
+                            <img src="img/azure-developer-associate.png" class="w-50 ml-6">
+                            <h6 class="mt-2 text-center"><a class="text-dark stretched-link"
+                                    href="https://www.credly.com/badges/c5e02234-693f-4bca-aaca-32e7c73f5852/linked_in">Microsoft
+                                    Certified: Azure Developer Associate</a></h6>
+                        </div>
+                        <div class="card col border-0 ">
+                            <img src="img/AWS-Developer-Associate.png" class="w-50 ml-6">
+                            <h6 class="mt-2 text-center"><a class="text-dark stretched-link"
+                                    href="https://www.credly.com/badges/358fa73a-20b4-436c-9c20-3c2268c89d72/linked_in">AWS
+                                    Certified Developer – Associate</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='workExperience' class="pb-5">
+        <div class="container mb-5 pb-5">
+            <div class="column">
+                <h2 class="pt-5">Work Experience</h2><br>
+                <div class="media">
+                    <img src="img/work.svg" class="align-self-start mr-3 list" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0">HI Iberia Ingeniería y Proyectos</h5>
+                        <a class="text-muted" href="https://www.hi-iberia.es/">https://www.hi-iberia.es/</a>
+                    </div>
+                </div>
+                <div class="media mt-3">
+                    <img src="img/work.svg" class="align-self-start mr-3 list" alt="...">
+                    <div class="media-body">
+                        <h5 class="mt-0">GQDalya Nuevas Tecnologías SL</h5>
+                        <a class="text-muted" href="https://www.gqdalya.com">https://www.gqdalya.com</a>
+                    </div>
+                </div>
+                <div class="media mt-3">
+                    <img src="img/work.svg" class="align-self-start mr-3 list" alt="...">
+                    <div class="media-body pb-5">
+                        <h5 class="mt-0">Movilges</h5>
+                        <a class="text-muted" href="https://www.movilges.com/">https://www.movilges.com/</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="navbar navbar-light bg-light pt-3">
+            <div class="container links">
+                <div class="col text-right">
+                    <a href="https://www.linkedin.com/in/susana-santos-moreno-65762b155" data-toggle="tooltip"
+                        data-placement="bottom" title="Linkedin" style="white-space: nowrap;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://github.com/SusanaSantosMoreno" data-toggle="tooltip" data-placement="bottom"
+                        title="github" style="white-space: nowrap;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <span id="references" class="navbar-text mx-auto">
+                Contact me: <a href="mailto:susanasantosmoreno97@gmail.com">susanasantosmoreno97@gmail.com</a><br>
+                Handcrafted by me, Susana Santos Moreno <br>
+                Icons designed by <a href="https://www.flaticon.es/autores/adib-sulthon">Adib Sulthon</a> and
+                <a href="https://www.flaticon.es/autores/pixelmeetup">pixelmeetup</a> from
+                <a href="https://www.flaticon.es/" title="Flaticon"> flaticon</a>
+            </span>
+        </nav>
+    </footer>
+
+</body>
+<script src="index.js"></script>
+
+</html>

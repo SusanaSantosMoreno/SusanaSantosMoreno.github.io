@@ -1,0 +1,178 @@
+/*
+ ---- PALETA COLORES ----
+    color: #092532;
+    color: #89c9b8;
+    color: #c7e2b2;
+    color: #e1ffc2;
+    https://colorhunt.co/palette/191933
+
+*/
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+nav { font-family: 'MuseoModerno', cursive; }
+
+.column h1, h2, h3, h4, h5, h6, #references { text-align: center; }
+
+.column { margin-top: 5rem; }
+
+#home, #about, #education, #workExperience, #contact { font-family: 'Montserrat', sans-serif;}
+
+#avatar {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+#about {
+    background-color: #092532;
+    color: white;
+    height: 800px;
+}
+
+#about .container .column h3 {padding-top: 6rem;}
+
+#about .container .column{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 8rem;
+}
+
+.links i {font-size: 2rem;}
+
+.links a { color: #092532;}
+
+.card {color: black;}   
+
+.card-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#education {margin-top: 250px;}
+
+.list{
+    width: 5%;
+    height: 5%;
+}
+
+.text-left{
+    text-align: start !important;
+}
+
+.media {
+    padding-left: 30%;
+    padding-right: 20%;
+}
+
+.w-10{
+    max-width: 10%;
+}
+
+.ml-6{
+    margin-left: 4rem !important;
+}
+
+.media-col {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.media h5, h6{ text-align: left !important; }
+
+#workExperience{
+    background-color: #092532;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#cards-desktop .card { width: 18rem;}
+
+@media (max-width: 800px){
+    #cards-desktop{display: none;} 
+
+    #avatar {
+        width: 50%;
+        height: 50%;
+    }
+
+    .column { margin-top: 3rem; }
+
+    #about .container .column h3 {padding-top: 4rem;}
+
+    #about .container .column{ padding-bottom: 3rem;}
+
+    #education {margin-top: 2rem;}
+
+    .media {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #about {
+        background-color: #092532;
+        color: white;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .list{
+        width: 10%;
+        height:  10%;
+    }
+}
+
+@media (min-width: 800px){
+    #cards-mobile{display: none;} 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+    #cards-desktop{display: none;}
+
+    #avatar {
+        width: 50%;
+        height: 50%;
+    }
+
+    .column { margin-top: 3rem; }
+
+    #about .container .column h3 {padding-top: 4rem;}
+
+    #about .container .column{ padding-bottom: 3rem;}
+
+    #education {margin-top: 2rem;}
+
+    .media {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #about {
+        background-color: #092532;
+        color: white;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .list{
+        width: 10%;
+        height:  10%;
+    }
+}    
