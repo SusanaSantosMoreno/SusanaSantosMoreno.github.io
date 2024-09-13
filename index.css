@@ -27,9 +27,9 @@ nav { font-family: 'MuseoModerno', cursive; }
 #home, #about, #education, #workExperience, #contact { font-family: 'Montserrat', sans-serif;}
 
 #avatar {
-    width: 200px; /* Control the size of the image */
-    height: 200px; /* Make sure the width and height are equal */
-    border-radius: 50%; /* Make the image circular */
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50% !important;
     object-fit: cover;
     display: block;
     margin-left: auto;
