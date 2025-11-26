@@ -8,6 +8,17 @@
 
 */
 
+/*
+ ---- NUEVA PALETA COLORES ----
+    color: #7F3155;
+    color: #60321E;
+    color: #80654C;
+    color: #A4D3CB;
+    color: #FCF6E5;
+    https://colorhunt.co/palette/a4d3cb80654c60321e7f3155
+
+*/
+
 html {
     min-height: 100%;
     position: relative;
@@ -38,7 +49,7 @@ nav { font-family: 'MuseoModerno', cursive; }
 }
 
 #about {
-    background-color: #092532;
+    background-color: #7F3155;
     color: white;
     height: 800px;
 }
@@ -50,6 +61,18 @@ nav { font-family: 'MuseoModerno', cursive; }
     padding-right: 3rem;
     padding-bottom: 8rem;
 }
+
+.custom-text-primary { color: #7F3155; }
+
+.custom-text-secondary { color: #60321E; }
+
+.custom-text-light { color: #FCF6E5; }
+
+a.custom-text-light:hover { color: #E3DDCE; text-decoration: none; }
+
+.custom-text-white { color: white; text-decoration: none; }
+
+a.custom-text-white:hover { color: #D3D3D3; text-decoration: none; }
 
 .links i {font-size: 2rem;}
 
@@ -79,6 +102,10 @@ nav { font-family: 'MuseoModerno', cursive; }
     padding-right: 20%;
 }
 
+.border-card{
+    border-color: #80654C;
+}
+
 .w-10{
     max-width: 10%;
 }
@@ -95,7 +122,7 @@ nav { font-family: 'MuseoModerno', cursive; }
 .media h5, h6{ text-align: left !important; }
 
 #workExperience{
-    background-color: #092532;
+    background-color: #7F3155;
     color: white;
 }
 
@@ -108,7 +135,8 @@ footer {
 #cards-desktop .card { width: 18rem;}
 
 @media (max-width: 800px){
-    #cards-desktop{display: none;} 
+    #cards-desktop{display: none; } 
+    #education-desktop{display: none; } 
 
     #avatar {
         width: 50%;
@@ -143,10 +171,15 @@ footer {
 
 @media (min-width: 800px){
     #cards-mobile{display: none;} 
+    #education-mobile{display: none;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+    #home { padding-top: 30px }
+
     #cards-desktop{display: none;}
+    #education-desktop{display: none;}
 
     #avatar {
         width: 50%;
@@ -167,7 +200,7 @@ footer {
     }
 
     #about {
-        background-color: #092532;
+        background-color: #7F3155;
         color: white;
         height: auto;
         padding-bottom: 2rem;
