@@ -210,4 +210,9 @@ footer {
         width: 10%;
         height:  10%;
     }
+
+    #references {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }    
